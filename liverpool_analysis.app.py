@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from adjustText import adjust_text 
 
+pip install -r requirements.txt
+
 # Load and clean df1
 df1 = pd.read_html('https://fbref.com/en/squads/822bd0ba/2023-2024/Liverpool-Stats', attrs={"id":"stats_standard_9"})[0]
 df1.columns = ['_'.join(col).strip() for col in df1.columns.values]
