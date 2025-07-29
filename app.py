@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1eMpezgkN55OrucNYofxdJ6fvEz9dQIcj
 """
 
-!pip install adjustText
-
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
